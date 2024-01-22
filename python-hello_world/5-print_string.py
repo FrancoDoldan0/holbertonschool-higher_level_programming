@@ -1,6 +1,3 @@
 #!/usr/bin/python3
 str = "Holberton School"
-for i in [0, 1, 2]:
-    print(str, end="")
-print()
-print(f"{str[:9]}")
+print(f"{str*3}\n{str[:9]}")

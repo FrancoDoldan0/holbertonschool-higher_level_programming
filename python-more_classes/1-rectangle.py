@@ -5,8 +5,8 @@
 class Rectangle:
     """void class"""
     def __init__(self, width=0, height=0):
-        self.__width = height
-        self.__height = width
+        self.width = height
+        self.height = width
 
     """width getter"""
     @property

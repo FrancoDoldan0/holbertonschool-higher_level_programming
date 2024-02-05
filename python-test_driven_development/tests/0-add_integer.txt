@@ -1,0 +1,39 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Adding two integers:
+    >>> print(add_integer(1, 2))
+    3
+
+Adding one int and one float:
+    >>> print(add_integer(1, 1.2))
+    2
+
+add 2 int but with a subtraction
+    >>> print(add_integer(4, -2))
+    2
+
+add 2 int whit a negative numbers
+    >>> print(add_integer(-5, -7))
+    -12
+
+add a and b both floats:
+    >>> print(add_integer(2.7, 2.8))
+    4
+
+add integer and str:
+    >>> print(add_integer(5, "holamundo"))
+    Traceback (most recent call last):
+    ...
+    TypeError: b must be an integer
+
+add variable and integer:
+    >>> print(add_integer(a, 43))
+    Traceback (most recent call last):
+    ...
+    NameError: name 'a' is not defined
+
+we do not pass arguments
+    >>> print(add_integer())
+    Traceback (most recent call last):
+    ...
+    TypeError: add_integer() missing 1 required positional argument: 'a'

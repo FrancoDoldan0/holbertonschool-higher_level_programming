@@ -3,4 +3,5 @@
 
 
 class Rectangle:
+    """void class"""
     pass

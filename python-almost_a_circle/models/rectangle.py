@@ -113,7 +113,7 @@ class Rectangle(Base):
         """dictionary"""
         dictt = {
             "id": self.id,
-            "whidth": self.width,
+            "width": self.width,
             "height": self.height,
             "x": self.x,
             "y": self.y

@@ -45,6 +45,6 @@ class Base:
     def create(cls, **dictionary):
         """Dictionary to Instance"""
         if cls is not Base:
-            new_instance = cls(1, 1)
-            new_instance.update(**dictionary)
-            return new_instance
+            instance = cls(1, 1)
+            instance.update(**dictionary)
+            return instance
